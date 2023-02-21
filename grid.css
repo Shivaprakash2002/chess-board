@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: slateblue;
+}
+.chessboard{
+    padding: 1rem;
+    width: min(100vh,100vw);
+    height: min(100vh,100vw);
+    background-color:black;
+    margin: auto;
+    display: grid;
+    grid-template: repeat(8,1fr) / repeat(8,1fr);
+}
+.square1:nth-child(odd){
+    background-color:gainsboro;
+}
+.square1:nth-child(even){
+    background-color: gray;
+}
+.square2:nth-child(even){
+    background-color:gainsboro;
+}
+.square2:nth-child(odd){
+    background-color:gray;
+}
+.pw{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 3rem;
+    color:white;
+}
+.sw
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 3rem;
+    color:white;
+    
+}
+.pb{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 3rem;
+    color:black;
+}
+.sb
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 3rem;
+    color:black;
+}
+h4,#w{
+    text-align:center;
+    color: white;
+    font-size: 2rem;
+}
+h4,#b{
+    color: black;
+}
